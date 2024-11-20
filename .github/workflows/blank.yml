@@ -27,5 +27,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build . -t gcr.io/${{ secrets.GCP_PROJECT }}/docker-repo/my-app:${{ github.sha }}
-        docker push gcr.io/${{ secrets.GCP_PROJECT }}/docker-repo/my-app:${{ github.sha }}
+        docker build . -t us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT }}/edf-interview/my-app:${{ github.sha }}
+        docker push us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT }}/edf-interview/my-app:${{ github.sha }}
