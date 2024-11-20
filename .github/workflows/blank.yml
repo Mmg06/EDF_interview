@@ -27,5 +27,5 @@ jobs:
       env:
         GCP_PROJECT: ${{ secrets.GCP_PROJECT }}
       run: |
-        docker build . -t gcr.io/${{ env.GCP_PROJECT }}/edf-interview/my-app:${{ github.sha }}
-        docker push gcr.io/${{ env.GCP_PROJECT }}/edf-interview/my-app:${{ github.sha }}
+        docker build . -t edf-interview/${{ env.GCP_PROJECT }}/edf-interview/my-app:${{ github.sha }}
+        docker push edf-interview/${{ env.GCP_PROJECT }}/edf-interview/my-app:${{ github.sha }}
