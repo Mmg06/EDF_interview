@@ -1,0 +1,11 @@
+Department,BudgetAllocated,ActualSpending,Month
+Marketing,"50,000",45000,January 
+Sales,"80,000",76000,January 
+IT,"40,000",42000,January 
+HR,"30,000",28000,January 
+Operations,"60,000","62,000",January 
+Marketing,52000,48000,January 
+Sales,"81,000","80,000",February
+IT,"41,000",40000,February
+HR,"31,000","30,000",February
+Operations,"61,000",59000,February
